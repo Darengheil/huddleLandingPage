@@ -92,3 +92,49 @@ p{
     color: hsl(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
 }
+
+@media(max-width: 900px){
+    body{
+        width: 100%;
+    }
+    h1{
+        font-size: 26px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .logo{
+        margin-top: 2em;
+        width: 40%;
+        padding-left: 0;
+        padding-bottom: 3em;
+    }
+    .container{
+        padding: 0;
+        width: 90%;
+        padding: 0 1em;
+    }
+    .mainPart{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .description{
+        width:100%;
+        padding-top: 3em;
+        text-align: center;
+    }
+    .mainImg{
+        width:100%;
+        padding: 0;
+    }
+    .mainButton{
+        width: 250px;
+        margin-top: 0.5em;
+        margin-bottom: 2em;
+    }
+    .iconContainer{
+        justify-content: center;
+        padding-right: 0;
+        margin-bottom: 2em;
+    }
+}
