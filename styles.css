@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: "Open Sans";
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    width: 1660px;
+    height: auto;
+    margin: 0;
+}
+
+h1{
+    font-family: "Poppins";
+    font-size: 45px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 20px;
+}
+
+.logo{
+    padding-bottom: 5em;
+    padding-left: 2em;
+}
+
+.background{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.container{
+    position: absolute;
+    padding: 4em;
+    z-index: 1;
+    top: 0;
+}
+
+.mainImg{
+    width: 50%;
+    height: auto;
+    padding-right: 4em;
+}
+
+.mainPart{
+    display: flex;
+    padding-left: 2em;
+}
+
+.description{
+    width: 40%;
+}
+
+.mainButton{
+    width: 200px;
+    padding: 0.7em 2em;
+    color:hsl(257, 40%, 49%);
+    font-family: "Poppins";
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 10px 60px rgb(29, 29, 29);
+}
+
+.mainButton:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+.iconContainer{
+    padding-top: 3em;
+    padding-right: 8em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    width: 26px;
+    height: 26px;
+    padding: 0.5em;
+    margin: 0 0.5em;
+    border-radius: 100px;
+    border:  1px solid white;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
